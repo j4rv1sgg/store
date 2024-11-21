@@ -5,10 +5,10 @@ export default function Navbar() {
   const { theme } = useAppSelector((state) => state.theme);
   const dispatch = useAppDispatch();
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 p-5 ">
       <div className="navbar-start"></div>
       <div className="navbar-center">
-        <a className=" text-xl">FakeStore</a>
+        <a className="text-xl font-bold">FakeStore</a>
       </div>
       <div className="navbar-end">
         <label className="swap swap-rotate">
